@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResumenFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btningresar"
+            android:fontFamily="@font/open_sans"
+            android:layout_margin="5dp"
+            android:text="Ingresar nuevo"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="80dp">
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/etpatente"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:hint="Buscar Patente"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/open_sans"
+                android:layout_weight="1"
+                android:layout_height="48dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnbuscar"
+                android:fontFamily="@font/open_sans"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Buscar"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:id="@+id/btnescanearqr"
+                android:src="@drawable/ic_baseline_qr_code_scanner_24"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resumen"
+            android:textAlignment="center"
+            android:fontFamily="@font/open_sans"
+            android:padding="5dp"
+            android:textSize="20sp"/>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/srlresumen"
+            android:layout_weight="8">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/rvresumen" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:id="@+id/btnsalir"
+                android:text="Salir"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:id="@+id/btninforme"
+                android:text="Informe"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

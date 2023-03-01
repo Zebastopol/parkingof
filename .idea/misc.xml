@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/font/open_sans.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/font/open_sans_bold.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/font/open_sans_light.xml" value="0.27239583333333334" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/activity_main.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/activity_simple_scanner.xml" value="0.2421875" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/card_item.xml" value="0.11778115501519756" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/fragment_ingreso.xml" value="0.144" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/fragment_login.xml" value="0.16168478260869565" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/fragment_menu.xml" value="0.11778115501519756" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/fragment_resumen.xml" value="0.11778115501519756" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/fragment_salida.xml" value="0.176" />
+        <entry key="..\:/Users/Purple/AndroidStudioProjects/parkingof/app/src/main/res/layout/my_spinner.xml" value="0.12228260869565218" />
+        <entry key="..\:/Users/Purple/Desktop/appnet/parkingAPPNET/app/src/main/res/layout/fragment_ingreso.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Purple/Desktop/appnet/parkingAPPNET/app/src/main/res/layout/fragment_login.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Purple/Desktop/appnet/parkingAPPNET/app/src/main/res/layout/fragment_menu.xml" value="0.2346014492753623" />
+        <entry key="..\:/Users/Purple/Desktop/appnet/parkingAPPNET/app/src/main/res/layout/fragment_resumen.xml" value="0.2346014492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
